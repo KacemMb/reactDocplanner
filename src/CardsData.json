@@ -1,0 +1,42 @@
+[
+    {
+        "image-url" :  "./images/warsaw.png",
+        "name" : "Warsaw"
+    },
+    {
+        "image-url" : "./images/barcelona.png",
+        "name" : "Barcelona"
+    },
+    {
+        "image-url" : "./images/munich.png",
+        "name" : "Munich"
+    },
+    {
+        "image-url" : "./images/istanbul.png",
+        "name" : "Istanbul"
+    },
+    {
+        "image-url" : "./images/rome.png",
+        "name" : "Rome"
+    },
+    {
+        "image-url" : "./images/bologna.png",
+        "name" : "Bologna"
+    },
+    {
+        "image-url" : "./images/curitiba.png",
+        "name" : "Curitiba"
+    },
+    {
+        "image-url" : "./images/rio-janeiro.png",
+        "name" : "Rio De Janeiro"
+    },
+    {
+        "image-url" : "./images/mexico-city.png",
+        "name" : "Mexico City"
+    },
+    {
+        "image-url" : "./images/bogota.png",
+        "name" : "Bogota"
+    }
+]

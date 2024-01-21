@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../style/SectionFive.css'
 function SectionFive() {
   return (
     <div className='SectionFive'>

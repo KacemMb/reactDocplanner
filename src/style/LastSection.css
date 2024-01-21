@@ -1,0 +1,10 @@
+.LastSection p{
+    text-align: center;
+    font-size: 1em;
+    color: var(--grayColor);
+}
+.LastSection{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}

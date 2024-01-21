@@ -1,0 +1,19 @@
+.SectionFive{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.SectionFive h1{
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--GreenColor);
+    font-weight: 100;
+    font-size: 2.5em;
+}
+.SectionFive p{
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 20px;
+}

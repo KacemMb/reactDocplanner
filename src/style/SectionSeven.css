@@ -1,0 +1,11 @@
+.SectionSeven h1{
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.SectionSeven{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}

@@ -1,0 +1,49 @@
+.company {
+    max-width: 1015px;
+    display: flex;
+    margin: 50px auto;
+
+
+}
+
+.company h1 {
+    width: 80%;
+    color: var(--GreenColor);
+    font-size: 2em;
+}
+.company ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin-left: 3%;
+}
+.company li {
+    width: 25%;
+    padding: 15px 5px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.company li svg {
+    height: 22px;
+}
+/*sizing of imgs*/
+#jameda {
+    height: 20px;
+    margin: 0 ;
+}
+#tuotempo {
+    height: 16px;
+    margin: 0 ;
+}
+#gipo {
+    height: 34px;
+    margin: 0 ;
+}
+#cliniccloud {
+    height: 34px;
+    margin: 0 ;
+}
+#feegow {
+    margin: 0 ;
+}

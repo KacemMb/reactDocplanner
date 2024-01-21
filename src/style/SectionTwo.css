@@ -1,0 +1,51 @@
+.SectionTwo{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1015px;
+    margin: 50px auto;
+
+}
+.sectionTwoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;background-color: aquamarine;
+    width: 31.5%;
+    min-height: 350px;
+    padding: 3%;
+    border-radius: 20px;
+    color: white;
+}
+.sectionTwoInformation{
+    display: block;
+
+}
+.sectionTwoInformation >*{
+    margin-top: 10px;
+    font-size: 1.6em;
+}
+.sectionTwoInformation h2{
+    font-weight: 600;
+}
+.sectionTwoInformation p{
+    font-weight: 100;
+}
+#card1{
+    background-color: var(--greenCardColor);
+}
+#card2{
+    background-color: var(--blueCardColor);
+}
+#card3{
+    background-color: var(--darkCardColor);
+}
+.selectCountry{
+    text-decoration: none;
+    background-color: inherit;
+    border: none;
+    color: white;
+    font-size: 1.22em;
+    cursor: pointer;
+}
+.selectCountry option{
+    background-color: gray;
+}

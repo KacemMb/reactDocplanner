@@ -1,0 +1,34 @@
+.SectionOne{
+    max-width: 1015px;
+    margin: auto;
+}
+.SectionOne img {
+    width: 4%;
+    margin: 4% 48%;
+} 
+.sectionOneHeading {
+    font-family: 'Raleway', sans-serif;
+    color: #00b39b;
+    text-align: center;
+    font-size: 2.2em;
+    line-height: 1.6em;
+    letter-spacing: 0.03em;
+    font-weight: 100;
+}
+.SectionOneTexts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin: 5% 0;
+    @media (max-width: 768px) {flex-direction: column;}
+}
+.sectionOneParagrap{
+    width: 45%;
+    letter-spacing: 0.03;
+    display: flex;
+    margin: 0.8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+    font-size: 1.2em;
+    height: 100%;
+}

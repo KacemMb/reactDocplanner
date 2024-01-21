@@ -1,0 +1,43 @@
+.MyBtn{
+    font-size: .625rem;
+    padding: 1em 1.5em;
+    border: 0;
+    border-radius: 4px;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-align: center;
+    cursor: pointer;
+}
+.SectionSix{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1015px;
+    margin: 50px auto;
+}
+.CityCard img {
+    width: 270px;
+    height: 270px;
+    border-radius: 15px 15px 0 0;
+}
+.CityCard{
+    margin: 3%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.CityCard:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.CityCardButtom{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 3%;
+    font-size: .65em;
+    align-items: center;
+}

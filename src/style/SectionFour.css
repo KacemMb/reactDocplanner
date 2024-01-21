@@ -1,0 +1,68 @@
+.statLeft {
+    display: block;
+    width: 50%;
+}
+.statLeft h1 {
+    font-size: 2.2em;
+    font-weight: 100;
+    color: var(--GreenColor);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 60px 20px 33%;
+    padding-top: 80px;
+}
+.statLeft p {
+    margin: 0 60px 20px 33%;
+    font-size: 1.15em;
+    color: var(--paragraphColor);
+}
+.statLeft img {
+    width: 58%;
+    display: block;
+    margin: 35px auto;
+}
+.stat{
+    background: var(--statColor);
+    width: 100%;
+    height: 580px;
+    overflow: hidden;
+    display: flex;
+    padding: 20px;
+}
+.statCards {
+    display: flex;
+    width: 35%;
+}
+.statCards1{
+    display: block;
+    margin-top: 20px;
+
+}
+.statCards2{
+    display: block;
+    margin-left: 20px;
+}
+.statCard{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    height: 240px;
+    width: 208px;
+    font-size: .75em;
+}
+.statCard img {
+    margin: 20px 40% 0;
+}
+.statCard h1 {
+    text-align: center;
+    color:var(--GreenColor);
+    font-weight: 100;
+}
+
+.statCard p {
+    text-align: center;
+    margin-bottom: 10px;
+}

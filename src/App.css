@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 :root {
     --GreenColor: #00b39b;
     --headerGreyColor: #ababab;
@@ -9,39 +15,24 @@
     --whiteColor: white;
     --statColor: #e5faf8;
 }
-.city-section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1015px;
-    margin: 0 auto;
-    
+::selection {
+    background: #00b39b;
+    color: #fff;
+    text-shadow: none;
 }
-.city-cards{
-    border-radius: 15px;
-    margin: 20px 0;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+.Header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background: hsla(0,0%,100%,.98);
+    transition: box-shadow .25s ease 0s;
 }
-.city-cards :hover{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    transition: 0.6s;
-}
-.city-card-image-style{
-    width: 310px;
-    height: 280px;
-    border-radius: 15px 15px 0 0 ;
-}
-.city-card-information{
-    display: flex;
-    justify-content: space-between;
-    padding: 5%;
-    align-items: center;
-}
-.city-card-btn{
-    height: 30px;
-    border-radius: 8px;
-    border: none;
-    background-color: var(--buttonColor);
-    color: var(--whiteColor);
-    font-weight: 500;
+.App{
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 70px;
+    -webkit-font-smoothing: antialiased;
 }

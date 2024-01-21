@@ -1,0 +1,17 @@
+[
+    {
+        "iconUrl" : "./images/icon-patients.svg",
+        "title" : "For patients",
+        "text" : "Find a doctor, book a visit and solve any health-related doubt"
+    },
+    {
+        "iconUrl" : "./images/icon-doctors.svg",
+        "title" : "For doctors",
+        "text" : "Save time managing visits and cut no-shows by half"
+    },
+    {
+        "iconUrl" : "./images/icon-clinics.svg",
+        "title" : "For clinics",
+        "text" : "Deliver an exceptional patient experience in your clinic"
+    }
+]

@@ -1,0 +1,12 @@
+.MainLogo{
+    width: 268px;
+    height: 33px;
+}
+.NavBarContainer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1015px;
+    margin: auto;
+    align-items: center;
+    padding: 5px;
+}
